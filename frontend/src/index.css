@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.local-video,
+.remote-video {
+  flex: 1;
+}
+
+video {
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid #ccc;
+}
+
+.controls {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
